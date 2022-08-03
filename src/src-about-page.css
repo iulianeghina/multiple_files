@@ -1,0 +1,46 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #fff;
+  --background-color: #f5f2fe;
+  --border-radius: 4px;
+}
+body {
+  max-width: 100%;
+  margin: 60px auto;
+}
+h1 {
+  font-size: 96px;
+  margin: 0;
+}
+h3 {
+  font-size: 24px;
+  margin: 0;
+  opacity: 0.7;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+section {
+  font-size: 48px;
+  margin: 0;
+  text-align: center;
+}
+a {
+  color: var(--primary-color);
+}
+.about-me-p {
+  margin: 30px 0;
+}
+.e-mail-link {
+  font-size: 28px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+.e-mail-link:hover {
+  text-decoration: underline;
+}
+.about-me-page {
+  text-align: center;
+}
